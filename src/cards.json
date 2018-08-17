@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "baby duck",
+    "image": "/assets/images/ducky1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "double duck",
+    "image": "/assets/images/ducky2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "palm duck",
+    "image": "/assets/images/ducky3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "sleepy kitty",
+    "image": "/assets/images/kitten1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "kitty eyes",
+    "image": "./assets/images/kitten2.jpg"
+  },
+  {
+    "id": 6,
+    "name": "kitty fluff",
+    "image": "/assets/images/kitten3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "baby pig 1",
+    "image": "/assets/images/piggy1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "baby pig 2",
+    "image": "/assets/images/piggy2.jpg"
+  },
+  {
+    "id": 9,
+    "name": "baby pig 3",
+    "image": "/assets/images/piggy1.jpg"
+  },
+  {
+    "id": 10,
+    "name": "dalmatian pup",
+    "image": "/assets/images/puppy1.jpg"
+  },
+  {
+    "id": 11,
+    "name": "fluffy pup",
+    "image": "/assets/images/puppy2.jpg"
+  },
+  {
+    "id": 12,
+    "name": "lazy pup",
+    "image": "/assets/images/puppy3.jpg"
+  }
+]

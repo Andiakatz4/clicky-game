@@ -1,21 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
+import ImageCard from './components/imagecard';
+import Game from './components/Game';
 
 class App extends Component {
+  state = {
+    dataArray: [],
+    score: 0,
+    topScore: 0
+  }
+
+  handleClick(id) {
+    console.log("hello");
+  }
+
   render() {
     return (
-      <div className="App">
-        <Header title="the header with a title" />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React!!</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Game />
+      /* {this.state.dataArray.map(item, () => {
+      <ImageCard 
+        handleClick={this.handleClick}
+        id={item.id}
+        image={item.image}
+      />
+    })} */
+      // </div>
 
     );
   }
